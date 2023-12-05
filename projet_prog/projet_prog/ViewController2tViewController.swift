@@ -26,4 +26,6 @@ class ViewController2tViewController: UIViewController {
     }
     */
 
+    @IBAction func changeView(_ sender: Any) {
+    }
 }
