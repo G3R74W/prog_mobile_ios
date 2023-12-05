@@ -28,8 +28,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view.
         
         for i in 0...50 {
-            var legend = "legende de l'image " + String(i)
-            var picture = Int.random(in:1...10)
+            var legend = "match " + String(i)
+            var picture = Int.random(in:1...5)
             var d = MyData(legend: legend, picture : picture)
             data.append(d)
         }
