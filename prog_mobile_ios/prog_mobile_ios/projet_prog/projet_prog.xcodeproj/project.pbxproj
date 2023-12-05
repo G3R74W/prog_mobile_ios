@@ -3,14 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CD7957D2B16627500049D9D /* home_match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7957C2B16627500049D9D /* home_match.storyboard */; };
-		5CD7957F2B16627500049D9D /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7957E2B16627500049D9D /* ViewController2ViewController.swift */; };
-		5CD795812B1F33CF00049D9D /* nomsJoueurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD795802B1F33CF00049D9D /* nomsJoueurs.swift */; };
-		5CD795832B1F36D200049D9D /* TableViewCellPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD795822B1F36D200049D9D /* TableViewCellPlayer.swift */; };
 		BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE322B163AFC003CBD14 /* AppDelegate.swift */; };
 		BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */; };
 		BE86DE372B163AFC003CBD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE362B163AFC003CBD14 /* ViewController.swift */; };
@@ -22,10 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5CD7957C2B16627500049D9D /* home_match.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home_match.storyboard; sourceTree = "<group>"; };
-		5CD7957E2B16627500049D9D /* ViewController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
-		5CD795802B1F33CF00049D9D /* nomsJoueurs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomsJoueurs.swift; sourceTree = "<group>"; };
-		5CD795822B1F36D200049D9D /* TableViewCellPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPlayer.swift; sourceTree = "<group>"; };
 		BE86DE2F2B163AFC003CBD14 /* projet_prog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projet_prog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE86DE322B163AFC003CBD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,14 +65,10 @@
 				BE86DE362B163AFC003CBD14 /* ViewController.swift */,
 				BE86DE462B1642A5003CBD14 /* TableViewCell.swift */,
 				BE86DE382B163AFC003CBD14 /* Main.storyboard */,
-				5CD7957C2B16627500049D9D /* home_match.storyboard */,
-				5CD795822B1F36D200049D9D /* TableViewCellPlayer.swift */,
-				5CD7957E2B16627500049D9D /* ViewController2ViewController.swift */,
 				BE86DE3B2B163AFE003CBD14 /* Assets.xcassets */,
 				BE86DE3D2B163AFE003CBD14 /* LaunchScreen.storyboard */,
 				BE86DE402B163AFE003CBD14 /* Info.plist */,
 				BE86DE482B164472003CBD14 /* Data.swift */,
-				5CD795802B1F33CF00049D9D /* nomsJoueurs.swift */,
 			);
 			path = projet_prog;
 			sourceTree = "<group>";
@@ -121,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = BE86DE2A2B163AFC003CBD14 /* Build configuration list for PBXProject "projet_prog" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -144,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE86DE3F2B163AFE003CBD14 /* LaunchScreen.storyboard in Resources */,
-				5CD7957D2B16627500049D9D /* home_match.storyboard in Resources */,
 				BE86DE3C2B163AFE003CBD14 /* Assets.xcassets in Resources */,
 				BE86DE3A2B163AFC003CBD14 /* Main.storyboard in Resources */,
 			);
@@ -161,10 +148,7 @@
 				BE86DE492B164472003CBD14 /* Data.swift in Sources */,
 				BE86DE472B1642A5003CBD14 /* TableViewCell.swift in Sources */,
 				BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */,
-				5CD795832B1F36D200049D9D /* TableViewCellPlayer.swift in Sources */,
-				5CD7957F2B16627500049D9D /* ViewController2ViewController.swift in Sources */,
 				BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */,
-				5CD795812B1F33CF00049D9D /* nomsJoueurs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
