@@ -18,6 +18,7 @@ class TableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        
     }
     @IBOutlet weak var picture: UIImageView!
     @IBOutlet weak var legend: UILabel!

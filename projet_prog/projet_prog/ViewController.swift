@@ -29,21 +29,35 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        for i in 0...50 {
-            var legend = "match " + String(i)
-            var picture = Int.random(in:1...4)
-            var d = MyData(legend: legend, picture : picture)
-            data.append(d)
-        }
+
+
+
         
         
         
         dataTableView.dataSource = self
     }
+    
+    @IBAction func unwindToCreateMatch(_ unwindSegue: UIStoryboardSegue) {
+        let sourceViewController = unwindSegue.source as! ViewController2
+        // Use data from the view controller which initiated the unwind segue
+        let team1 = sourceViewController.team1.text!
+        let team2 = sourceViewController.team2.text!
+        print (team1)
+        print (team2)
+        
+        var legend = team1 + " vs " + team2
+        var picture = Int.random(in:1...4)
+        var d = MyData(legend: legend, picture : picture)
+        data.append(d)
+        
+    }
 
     
     @IBOutlet weak var dataTableView: UITableView!
     var data = [MyData]()
+    
+    var matchCounter = 0
 }
 
 
