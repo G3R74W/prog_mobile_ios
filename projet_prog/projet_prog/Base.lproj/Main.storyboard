@@ -88,7 +88,7 @@
             </objects>
             <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
-        <!--Title-->
+        <!--View Controller2-->
         <scene sceneID="1UR-ih-mQd">
             <objects>
                 <viewController id="84c-By-lLz" customClass="ViewController2" customModule="projet_prog" customModuleProvider="target" sceneMemberID="viewController">
@@ -179,12 +179,11 @@
                         <viewLayoutGuide key="safeArea" id="WHS-n8-mYa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="iaL-LY-RTJ">
-                        <connections>
-                            <outlet property="titleView" destination="15L-24-M5H" id="X7Q-Oe-GkI"/>
-                        </connections>
-                    </navigationItem>
                     <connections>
+                        <outlet property="score1" destination="cTh-pW-IAP" id="3Fe-ST-3ud"/>
+                        <outlet property="score2" destination="XWf-6E-hlP" id="zAf-jS-dzA"/>
+                        <outlet property="stepper1" destination="eom-Hc-V5o" id="9J0-uh-lU1"/>
+                        <outlet property="stepper2" destination="KgT-8t-rza" id="xki-Kb-1xU"/>
                         <outlet property="team1" destination="x5O-nK-sWd" id="0yI-Ug-E2Q"/>
                         <outlet property="team2" destination="Bly-UH-gzi" id="mRF-FE-GYE"/>
                         <outlet property="txt1" destination="adN-Th-ARQ" id="2oy-Jy-bs3"/>
