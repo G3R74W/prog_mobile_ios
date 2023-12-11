@@ -28,13 +28,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-
-
-
-        
-        
-        
         dataTableView.dataSource = self
     }
     
@@ -50,7 +43,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         var picture = Int.random(in:1...4)
         var d = MyData(legend: legend, picture : picture)
         data.append(d)
-        
+        dataTableView.reloadData()
+
     }
 
     
