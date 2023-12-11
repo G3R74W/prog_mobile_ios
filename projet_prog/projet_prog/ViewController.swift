@@ -31,16 +31,17 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         for i in 0...50 {
             var legend = "match " + String(i)
-            var picture = Int.random(in:1...5)
+            var picture = Int.random(in:1...4)
             var d = MyData(legend: legend, picture : picture)
             data.append(d)
         }
         
+        
+        
         dataTableView.dataSource = self
     }
 
-
-
+    
     @IBOutlet weak var dataTableView: UITableView!
     var data = [MyData]()
 }

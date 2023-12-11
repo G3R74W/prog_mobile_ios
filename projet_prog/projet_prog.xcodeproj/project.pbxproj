@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE85DB8B2B2740B900830F6D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85DB8A2B2740B900830F6D /* ViewController2.swift */; };
 		BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE322B163AFC003CBD14 /* AppDelegate.swift */; };
 		BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */; };
 		BE86DE372B163AFC003CBD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE362B163AFC003CBD14 /* ViewController.swift */; };
@@ -16,10 +17,10 @@
 		BE86DE472B1642A5003CBD14 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE462B1642A5003CBD14 /* TableViewCell.swift */; };
 		BE86DE492B164472003CBD14 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE482B164472003CBD14 /* Data.swift */; };
 		BEADD0C42B1F2E0F00905B3B /* vue2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */; };
-		BEADD0C62B1F2E6000905B3B /* ViewController2tViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADD0C52B1F2E6000905B3B /* ViewController2tViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE85DB8A2B2740B900830F6D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		BE86DE2F2B163AFC003CBD14 /* projet_prog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projet_prog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE86DE322B163AFC003CBD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		BE86DE462B1642A5003CBD14 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BE86DE482B164472003CBD14 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = vue2.storyboard; sourceTree = "<group>"; };
-		BEADD0C52B1F2E6000905B3B /* ViewController2tViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2tViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,10 @@
 				BE86DE322B163AFC003CBD14 /* AppDelegate.swift */,
 				BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */,
 				BE86DE362B163AFC003CBD14 /* ViewController.swift */,
+				BE85DB8A2B2740B900830F6D /* ViewController2.swift */,
 				BE86DE462B1642A5003CBD14 /* TableViewCell.swift */,
 				BE86DE382B163AFC003CBD14 /* Main.storyboard */,
 				BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */,
-				BEADD0C52B1F2E6000905B3B /* ViewController2tViewController.swift */,
 				BE86DE3B2B163AFE003CBD14 /* Assets.xcassets */,
 				BE86DE3D2B163AFE003CBD14 /* LaunchScreen.storyboard */,
 				BE86DE402B163AFE003CBD14 /* Info.plist */,
@@ -156,7 +156,7 @@
 				BE86DE472B1642A5003CBD14 /* TableViewCell.swift in Sources */,
 				BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */,
 				BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */,
-				BEADD0C62B1F2E6000905B3B /* ViewController2tViewController.swift in Sources */,
+				BE85DB8B2B2740B900830F6D /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
