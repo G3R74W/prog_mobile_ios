@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE85DB8B2B2740B900830F6D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85DB8A2B2740B900830F6D /* ViewController2.swift */; };
 		BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE322B163AFC003CBD14 /* AppDelegate.swift */; };
 		BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */; };
 		BE86DE372B163AFC003CBD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE362B163AFC003CBD14 /* ViewController.swift */; };
@@ -15,9 +16,12 @@
 		BE86DE3F2B163AFE003CBD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE86DE3D2B163AFE003CBD14 /* LaunchScreen.storyboard */; };
 		BE86DE472B1642A5003CBD14 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE462B1642A5003CBD14 /* TableViewCell.swift */; };
 		BE86DE492B164472003CBD14 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE86DE482B164472003CBD14 /* Data.swift */; };
+		BEA972702B29FE9E00AA545C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9726F2B29FE9E00AA545C /* ViewController3.swift */; };
+		BEADD0C42B1F2E0F00905B3B /* vue2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE85DB8A2B2740B900830F6D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		BE86DE2F2B163AFC003CBD14 /* projet_prog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projet_prog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE86DE322B163AFC003CBD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		BE86DE402B163AFE003CBD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE86DE462B1642A5003CBD14 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BE86DE482B164472003CBD14 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BEA9726F2B29FE9E00AA545C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = vue2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,14 @@
 		BE86DE312B163AFC003CBD14 /* projet_prog */ = {
 			isa = PBXGroup;
 			children = (
+				BEA9726F2B29FE9E00AA545C /* ViewController3.swift */,
 				BE86DE322B163AFC003CBD14 /* AppDelegate.swift */,
 				BE86DE342B163AFC003CBD14 /* SceneDelegate.swift */,
 				BE86DE362B163AFC003CBD14 /* ViewController.swift */,
+				BE85DB8A2B2740B900830F6D /* ViewController2.swift */,
 				BE86DE462B1642A5003CBD14 /* TableViewCell.swift */,
 				BE86DE382B163AFC003CBD14 /* Main.storyboard */,
+				BEADD0C32B1F2E0F00905B3B /* vue2.storyboard */,
 				BE86DE3B2B163AFE003CBD14 /* Assets.xcassets */,
 				BE86DE3D2B163AFE003CBD14 /* LaunchScreen.storyboard */,
 				BE86DE402B163AFE003CBD14 /* Info.plist */,
@@ -131,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEADD0C42B1F2E0F00905B3B /* vue2.storyboard in Resources */,
 				BE86DE3F2B163AFE003CBD14 /* LaunchScreen.storyboard in Resources */,
 				BE86DE3C2B163AFE003CBD14 /* Assets.xcassets in Resources */,
 				BE86DE3A2B163AFC003CBD14 /* Main.storyboard in Resources */,
@@ -149,6 +159,8 @@
 				BE86DE472B1642A5003CBD14 /* TableViewCell.swift in Sources */,
 				BE86DE332B163AFC003CBD14 /* AppDelegate.swift in Sources */,
 				BE86DE352B163AFC003CBD14 /* SceneDelegate.swift in Sources */,
+				BEA972702B29FE9E00AA545C /* ViewController3.swift in Sources */,
+				BE85DB8B2B2740B900830F6D /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
